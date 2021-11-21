@@ -1,0 +1,11 @@
+.pokeFig {
+    display: inline-block;
+    text-align: center;
+    background: #eee;
+    margin: 5px;
+}
+
+ .btn {
+     display: block;
+     width: 100%;
+ }

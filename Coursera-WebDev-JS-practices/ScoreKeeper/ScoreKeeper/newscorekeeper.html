@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Score Keeper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="scorekeeper.css">
+
+</head>
+
+<body>
+    <main class="border border-1">
+        <div id="page-header">
+            <img src="img.jfif" alt="header-img">
+            <h1 class="p-3">Ping Pong Score Keeper</h1>
+        </div>
+        <div id="scoreDiv " class="border border-1 p-3">
+            <p id="scoreP"> <span id="p1Score">0</span> to <span id="p2Score">0</span></p>
+            <p>Use the buttons below to keep score</p>
+            <label for="sets-select" id="selectLable">Playing to</label>
+            <select name="sets-select" id="sets">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+        </div id="buttonsDiv" class="p-3">
+        <div class="btn-group-lg" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-success" id="p1Btn">+1 Player One</button>
+            <button type="button" class="btn btn-primary" id="p2Btn">+1 Player Two</button>
+            <button type="button" class="btn btn-danger" id="reset">Reset</button>
+        </div>
+
+    </main>
+
+
+    <script src="newscorekeeper.js"></script>
+</body>
+
+</html>
